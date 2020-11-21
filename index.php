@@ -1,7 +1,7 @@
 <?php
 
 // Composer でライブラリの一括読み込み
-require_once __DIR__ . '/vender/autoload.php';
+require_once __DIR__ . './vender/autoload.php';
 
 $httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient(getenv('CHANEL_ACCESS_TOKEN'));
 
